@@ -1,0 +1,1 @@
+{"status":0,"additional":"<?php echo $additional; ?>","effect":<?php echo $effect; ?>}

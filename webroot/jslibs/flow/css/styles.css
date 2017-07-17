@@ -1,0 +1,25 @@
+.container{width: 660px; margin: 60px auto;}
+.container .header{text-align: center;}
+.container .header h3{font-weight: normal; margin:10px;}
+.container .content{border:1px solid black; padding:30px 10px 0px 20px;}
+.enrty-com .content .item2{margin-bottom: 36px;}
+.enrty-com .content .item2 .inline{display: inline-block; width:290px;}
+.enrty-com .content .item2 .posi1{display: inline-block; padding-left: 50px;}
+.enrty-com .content .item2 .posi2{display: inline-block; padding-left: 50px;}
+.enrty-com .content .item2 .posi3{display: inline-block; padding-left: 50px;}
+.enrty-com .content .item2 .posi4{display: inline-block; padding-left: 50px;}
+
+.back-com .content .item2{margin-bottom: 36px;}
+.back-com .content .item2 .inline{display: inline-block; width:290px;}
+.back-com .content .item2 .posi1{display: inline-block; padding-left: 50px;}
+.back-com .content .item2 .posi2{display: inline-block; padding-left: 50px;}
+.back-com .content .item2 .posi3{display: inline-block; padding-left: 50px;}
+.back-com .content .item2 .posi4{display: inline-block; padding-left: 50px;}
+.container .remark{border-top: 1px solid #ccc; line-height: 40px; }
+
+.quit .content .item{margin-bottom: 50px;}
+.quit .content .item .inline{display: inline-block; width:290px;}
+.quit .content .item .posi1{ padding-left: 50px;}
+.quit .content .item .posi2{ padding-left: 50px;}
+.quit .content .item .posi3{ padding-left: 50px;}
+

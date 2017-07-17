@@ -1,0 +1,42 @@
+@charset "utf-8";
+body{ font-size: 12px; color: #333; background-color: #fff; font-family: "Microsoft YaHei"; }
+.inputd-group{ margin-bottom: 10px; display: inline-block; vertical-align: top; }
+.fm-control{ width: 195px; height: 30px; border: 1px solid #ccc; padding: 6px 6px; outline: none; }
+.fm-control-one{ width: 120px; }
+.fm-control-two{ width: 100px; }
+.fm-control-big{ width: 318px; }
+.fm-disabled{ background-color: #e6e6e6; cursor: not-allowed; }
+.inputd-group .date{ background: #fff url("../laydate/skins/default/icon.png") no-repeat center right 2px; background-size: 22px; }
+.label-control{ color: #333; display: inline; font-weight: normal; }
+.txtarea-group{ display: block; }
+.txtarea-group .label-control{ display: inline-block; vertical-align: top; vertical-align: top; }
+.txtarea-group .txtarea-control{ width: 1130px;  border: 1px solid #ccc; padding: 6px 8px; outline: none; overflow: auto; vertical-align: top; }
+.txt-color{ color: #3399ff; }
+.btn-primary{ padding: 4px 20px; background-color: #3399ff; border-color: #3399ff;
+ vertical-align: top; outline: none; border-radius: 0;}
+.btn-primary:hover{  background-color: #3399ff; border-color: #3399ff; }
+.btn-primary:active{ background-color: #5CA8F5; border-color: #5CA8F5;}
+.btn-defaultd{ padding: 4px 20px; border-radius: 0; border: 1px solid #a1a0b2; background-color: #a1a0b2; color: #fff; }
+.btn-defaultd:hover,
+.btn-default:active{ background-color: #a1a0b2; border: 1px solid #a1a0b2; color: #fff; }
+.table{ margin-bottom: 0; }
+.table,
+.table>thead>tr>th{ text-align: center; }
+.table>thead{ background-color: #e6e6e6; }
+dl{ margin-bottom: 0; }
+
+.pagecontent{ min-width: 1280px; padding: 30px 10px 10px; }
+.pagecontent .pagehd{ margin-bottom: 10px; }
+.pagehd .menu{ margin-right: 10px; display: inline-block; vertical-align: top; cursor: pointer; }
+.pagehd .menu img{ height: 26px; margin-top: 2px; }
+.pagehd .btn-primary{ margin-left: 10px; }
+.pagemain .nav-pills>li>a{ background-color: #f6f6f6; color: #333; border-radius: 0; }
+.pagemain .nav-pills>li.active>a, 
+.pagemain .nav-pills>li.active>a:hover, 
+.pagemain .nav-pills>li.active>a:focus {
+  background-color: #3399ff;
+  color: #fff;
+}
+.pagemain .tab-content{ padding-top: 10px; }
+.pagemain .table>thead { background-color: #c4e1fc; }
+.pagemain .table>thead th{ font-weight: normal; }

@@ -1,0 +1,15 @@
+@charset "utf-8";
+body{ color:#768082; background-color: #f0f2f5; font-size: 12px; font-family: "Microsoft YaHei";}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7,
+.col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-11{ padding-left: 0; padding-right: 0; }
+.container-fluid{ padding-top: 30px; padding-bottom: 30px; }
+.btn-info-dianmei{ background-color: #5bc0de; border-color: #46b8da; color: #ffffff;}
+.btn-info-dianmei:hover{ color: #fff; }
+select.form-control option{ font-size: 20px;}
+.from-hr .form-horizontal .form-group div[class='col-sm']{ padding-left:0; padding-right:6px;}
+
+
+
+
+
+

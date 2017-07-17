@@ -1,0 +1,7 @@
+
+<!-- appli-content end -->
+<script src="<?php echo base_url("");?>/jslibs/content/bootstrap/jquery-1.11.1.min.js"></script>
+<script src="<?php echo base_url("");?>/jslibs/content/bootstrap/bootstrap.min.js"></script>
+<script src="<?php echo base_url("");?>/jslibs/content/laydate/laydate.js"></script>
+</body>
+</html>

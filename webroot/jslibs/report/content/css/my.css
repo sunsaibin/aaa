@@ -1,0 +1,16 @@
+body{ font-size: 12px; color: #333; background-color: #fff; font-family: "Microsoft YaHei"; }
+.container-sum{min-width: 1280px;height: 814px;padding-left:20px;padding-right: 20px; padding-top:30px;}
+.fm-control{ width: 160px; height: 30px; border: 1px solid #ccc; padding: 6px 8px; outline: none; }
+.label-control{ color: #333; font-weight: normal; }
+.fm-disabled{ background-color: #e6e6e6; cursor: not-allowed; }
+.inputd-group{ margin-bottom: 10px; display: inline-block; vertical-align: top; }
+.date{ background: #fff url("../laydate/skins/default/icon.png") no-repeat center right 2px; background-size: 22px; }
+.menu{display: inline-block;}
+.report-radio .txt-color{padding-left:20px;}
+input[type=radio], input[type=checkbox]{margin:2px 0 0;}
+.container-top .btn img{width: 16px; margin-right: 4px;}
+.radio-po{position:relative; top:5px;}
+.container-top .btn{margin-left: 20px; border-radius: 0; background-color: #3399ff;outline: none;border: none;}
+.content .content-top{margin-top:30px; background:#c4e1fc;height: 30px; line-height: 30px; margin-bottom: 5px;}
+.content-top span{padding-left: 10px;line-height: 30px;font-size: 12px; }
+.container-sum .report-radio .radio-style input{display: inline-block; margin-top:2px;}

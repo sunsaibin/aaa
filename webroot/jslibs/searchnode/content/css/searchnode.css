@@ -1,0 +1,23 @@
+@charset "utf-8";
+body{ font-size: 12px; color: #333; font-family: "Microsoft YaHei"; }
+
+/* 树结构*/
+.model-tree-aside{ width: 340px; height: 99%; padding: 30px 15px;margin: 4px; background-color: #f3f3f3;
+ position: fixed; left: 0; top: 0; z-index: 200; display:none;}
+.model-tree-aside .sear-tree-box{ margin-bottom: 30px; }
+.model-tree-aside .sear-tree-box input{ width: 246px; height: 32px; border: 1px solid #ccc; text-indent: 10px; 
+border-right: none; vertical-align: top; }
+.model-tree-aside .sear-tree-box button{ width: 60px; height: 32px; margin-left: -4px; border: 1px solid #ccc;
+ background-color: #fff; vertical-align: top; }
+/*样式*/ 
+.schedul-set-head  .input-group {display: inline-block;}
+.schedul-set-head  .input-group [class^='col-xs-'] {padding-left: 0;padding-right: 0;}
+.schedul-set-head  .input-group .control-label {padding-top: 3px;}
+.schedul-set-head  .menu {display: inline-block;vertical-align: top;}
+.schedul-set-head  .menu img {	height: 24px;margin-top: 5px;margin-right: 20px;vertical-align: middle;cursor: pointer;}
+.saup-btn{ color: #fff; background-color: #3399ff; border-color: #3399ff; padding: 6px 20px; vertical-align: top;}
+.saup-btn:hover{ color:#fff;  background-color: #3399ff; border-color: #3399ff;}
+/* 遮罩 */
+.tree-cover{ width:100%; height: 100%; background: rgba(0,0,0,0.5);  position: fixed; left: 0; top: 0; z-index: 199;  display:none;}
+/*下拉条*/
+.model-tree{ overflow: auto; height: 680px;}

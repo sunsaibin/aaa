@@ -1,0 +1,83 @@
+body{ color: #555; background-color: #f1f2f6; font-size: 12px; font-family: "Microsoft YaHei";}
+.report{ min-width: 1200px; margin-top: 5px; margin-bottom: 30px; padding: 3px 0; background-color: #fff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;}
+.report table tr:nth-child(odd){ background-color: #f9f9f9;}
+.report table th,
+.report table td{ height: 24px; border: 1px solid #ddd; text-align: center; }
+/*.container-fluid{ margin-left: 80px; margin-right: 80px;}*/
+@media screen and (max-width: 1200px) {
+  .container-fluid{ margin-left: 0; margin-right: 0;}
+}
+/* 报表头部 */
+.report-head{ clear: both; }
+.report-head .col-sm-12,
+.report-head .col-xs-2,
+.report-head .col-xs-3,
+.report-head .col-xs-1{ margin: 0; padding: 0;max-height:100px; }
+.report-head .form-group{ margin-left: 1px; margin-bottom: 3px;}
+.report-head .form-group>label{ margin-bottom: 6px; color: #555; }
+.report-head .form-group .btn-info{ padding: 6px 35px;background-color: #00ccff; border-color: #00ccff; }
+.report-head .form-control{ border: 2px solid #00ccff;}
+.table-report1{ margin-top: 10px; padding-bottom: 5px; clear: both; /*overflow-x: auto;*/}
+
+/* 滚动条样式 只webkit兼容 */
+.table-report1::-webkit-scrollbar,
+.table-emp-per::-webkit-scrollbar{width:14px;}
+.table-report1::-webkit-scrollbar-track,
+.table-emp-per::-webkit-scrollbar-track{background-color:#e3e4e9;}
+.table-report1::-webkit-scrollbar-thumb,
+.table-emp-per::-webkit-scrollbar-thumb{
+  background-color:#c3c4c8;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;}
+.table-report1::-webkit-scrollbar,
+.table-emp-per::-webkit-scrollbar{ height: 10px; }
+
+.table-report1 table{ margin: 0 auto;}
+.table-report1 table tr:first-child{ font-weight: bold;}
+.table-report1 table th,
+.table-report1 table tr:not(:first-child) td:nth-child(3),
+.table-report1 table tr:not(:first-child) td:nth-child(4){ color: #000;}
+.table-report1 table tr .tdSub{ display: none; }
+.tdGroupOpen{ background: url(../img/tdOpen.jpg) no-repeat right 1px top 1px; cursor: pointer;}
+.tdOpenBg{ color: #fff; background-color: #08caee;}
+.rowBg{ background:#08caee url(../img/tdClose.jpg) no-repeat right top; cursor: pointer; }
+
+.report-page{ text-align: center;}
+.report-page .pagination>li>a, .pagination>li>span{ border: none; color: #00b4fc; font-size: 14px; }
+.report-page .pagination>li>a:hover,
+.report-page .pagination>li>span:hover,
+.report-page .pagination>li>a:focus,
+.report-page .pagination>li>span:focus,
+.report-page .pagination>li>a.active{ background-color: #00b4fc; color: #fff;}
+
+/* 月报表 */
+.table-emp-per{ margin-top: 30px; padding-bottom: 20px; clear: both; overflow-x: auto;}
+.table-emp-per table{ width: 4300px; margin: 0 auto;}
+.table-emp-per th{ background-color: #f6f8fa; color: #999;}
+.table-emp-per th,
+.table-emp-per td{ width: 100px;}
+.table-emp-per th:first-child,
+.table-emp-per td:first-child{ border-left: none;}
+.table-emp-per th:last-child,
+.table-emp-per td:last-child{ border-right: none;}
+
+.report-bar{ margin-top: 3px; height: 30px; clear: both;}
+.report-bar .report-bar-zoneline{ height: 32px; line-height: 32px; padding-left: 15px; font-size: 12px;}
+.report-bar .report-bar-zoneline a{ color: #555; text-decoration: none;}
+.report-bar .report-bar-zoneline a:hover{ color: #00ccff; text-decoration: underline;}
+.report-bar .report-bar-zoneline a:last-child{ color: #00ccff;}
+.report-bar .report-tableCharts{ font-size: 14px;}
+.report-bar .nav-pills>li>a>span{ display: inline-block; vertical-align: middle;}
+.report-bar .nav-pills>li>a{padding: 10px 15px; color: #555;}
+.report-bar .nav-pills>li.active>a,
+.report-bar .nav-pills>li.active>a:hover,
+.report-bar .nav-pills>li.active>a:focus{ background-color: #fff; color: #00ccff;}
+.report-bar .nav-pills>li>a:hover,
+.report-bar .nav-pills>li.active>a:hover{ background-color: #fff; color: #00ccff;}
+
+.ch-container .form-control{ border: 2px solid #00ccff;}
+

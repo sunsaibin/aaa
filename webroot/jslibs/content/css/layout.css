@@ -1,0 +1,55 @@
+@charset "utf-8";
+body{ font-size: 12px; color: #333; font-family: "Microsoft YaHei"; }
+.input-group{ margin-right: 20px; margin-bottom: 10px; display: inline-block; vertical-align: top; }
+.fm-control{ width: 195px; height: 34px; border: 1px solid #ccc; padding: 6px 8px; outline: none; }
+.input-group .date{ background: #fff url("../laydate/skins/default/icon.png") no-repeat center right; }
+.label-control{ color: #333; }
+.btn-primary{ padding: 6px 20px; background-color: #3399ff; border-color: #3399ff; vertical-align: top; outline: none; border-radius: 0;}
+.btn-primary:hover{  background-color: #3399ff; border-color: #3399ff; }
+.btn-primary:active{ background-color: #5CA8F5; border-color: #5CA8F5;}
+.search-box{ display: inline-block; vertical-align: top; }
+.search-box .search-input{ border-right: none;  }
+.search-box .btn-search{ margin-left: -4px; }
+.modal-content{ border-radius: 0; }
+.text-group{ margin-right: 20px; margin-bottom: 10px; line-height: 34px; display: inline-block; vertical-align: top; }
+.text-group .txt-control{ width: 195px; height: 34px; display: inline-block; vertical-align: top; border: 1px solid #fff; }
+.txt-color{ color: #ff9966; }
+.txtarea-control{ width: 880px; height: 100px;  border: 1px solid #ccc; padding: 6px 8px; outline: none; overflow: auto;}
+.txtarea-group .label-control{ vertical-align: top; }
+.search-content{ min-width: 1340px; margin: 20px 10px; padding: 20px 0; }
+.screen-control-one{ width: 120px; }
+.screen-control-two{ width: 66px; }
+.appli-content{ min-width: 1340px; margin: 20px 10px; padding: 20px 0; }
+.appli-hd{ font-size: 14px; }
+.appli-hd .label-control{ color: #ff9966; }
+.handle-info{ padding-top: 20px; }
+.handle-info .label-control{ font-weight: normal; }
+/*.appli-main{ width: 1000px; display: inline-block; vertical-align: top;  }*/
+.appli-aside{ width: 340px; height: 730px; margin-left: -4px; border: 1px solid #ccc; display: inline-block; vertical-align: top; font-size: 14px;
+ position: relative;  }
+.appli-main h4{ height: 34px; line-height: 34px; margin: 0; padding-left: 30px; background: #f2f2f2 url("../images/edit-icon.svg") no-repeat left 10px center; }
+.appli-panel{ margin-bottom: 20px; }
+.appli-panel-box{ width: 1000px; font-size: 14px; }
+.appli-panel-box .text-group,
+.appli-panel-box .input-group{ margin: 10px 40px 0 0; }
+.appli-panel-box .label-control{ font-weight: normal; }
+.appli-panel-box .txtarea-group{ margin-right: 0; }
+.appli-aside .text-group{ margin: 10px 0 0 20px; }
+.appli-aside .appli-aside-btn{ width: 340px; text-align: center; position: absolute; bottom: 20px; left: 0; }
+.appli-aside .appli-aside-btn .btn-primary{ width: 220px; }
+
+.em-infor .text-group,
+.em-infor .input-group{ margin: 10px 10px 0 0; }
+.em-infor .txt-control,
+.em-infor .fm-group{ width: 150px; }
+
+.ask-people-box{margin-right: 10px; display: inline-block; vertical-align: top; line-height: 34px;}
+.ask-people-box .people-name,
+.ask-people-box .pclose{ height: 34px; border: 1px solid #ccc; text-align: center; display: inline-block; vertical-align: top;}
+.ask-people-box .people-name{ width: 120px; }
+.ask-people-box .pclose{ width: 36px; margin-left: -4px; background-color: #e5e5e5;  cursor: pointer;}
+
+.add-ask-people{ width: 156px; border: 1px solid #ccc; display: inline-block; vertical-align: top; line-height: 34px;
+ color: #3399ff; text-align: center; cursor: pointer; }
+
+.text-are{ margin-top: 10px; text-indent: 24px; }

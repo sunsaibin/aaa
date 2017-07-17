@@ -1,0 +1,108 @@
+body{ color: #768082; background-color: #f0f2f5; font-size: 14px; font-family: "Microsoft YaHei";}
+ul{ list-style: none; padding: 0; margin: 0; }
+.bill-container{ width: 1200px; padding: 15px; margin: 20px auto; background-color: #fff; }
+.query-hide{ display: none; } /* 隐藏元素 */
+
+.bill-query .input-group-btn:last-child>.btn{ background-color: #00ccff; border-color: #00ccff; }
+.bill-query .form-group label{ font-weight: normal; color: #768082; }
+.bill-query .btn-form-group{ height: 56px; }
+.bill-query .btn-form-group .btn-info{ width: 84px; margin-top: 25px; border-color: #00ccff; background-color: #00ccff; background-image:none;}
+.bill-query .btn-form-group .btn-default{ width: 84px; margin-top: 25px; }
+/*分页*/
+.bills-page{ text-align: center;}
+.bills-page .pagination>li>a, 
+.bills-page .pagination>li>span{ border: none; color: #00b4fc; font-size: 14px; }
+.bills-page .pagination>li>a:hover,
+.bills-page .pagination>li>span:hover,
+.bills-page .pagination>li>a:focus,
+.bills-page .pagination>li>span:focus,
+.bills-page .pagination>li>a.active{ background-color: #00b4fc; color: #fff;}
+
+/*********************************************************** 日记账 dayBook.html ***********************************************************/
+.bill-day-book .day-book-row{ margin-top: 30px; }
+.bill-day-book .day-book-row .day-book-box{ width: 274px; padding: 6px 8px 0; border-top: 4px solid #f3f5f8; display: inline-block; vertical-align: top; }
+.bill-day-book .day-book-row .day-book-box:not(:last-child){ margin-right: 20px; }
+.bill-day-book .day-book-row .day-book-box .row:first-child{ font-weight: bold; margin-bottom: 10px; font-size: 16px;}
+.bill-day-book .day-book-row .day-book-box .row{margin: 4px 0;}
+.bill-day-book .day-book-row .day-book-box .row:first-child.normal-row{ margin-bottom: 4px; font-weight: normal; font-size: 14px; }
+.bill-day-book .day-book-row .day-book-box .col-xs-8,
+.bill-day-book .day-book-row .day-book-box .col-xs-4{ padding: 0; }
+.day-book-sum{ margin-top: 50px; padding-top: 20px; border-top: 2px dashed #e2e2e2; }
+.day-book-sum .db-sum{ font-size: 18px; margin-top: 6px; }
+.day-book-sum .db-sum span{ color: #ff9900; }
+.day-book-sum .btn-info{ width: 110px; margin-top: 20px; border-color: #00ccff; background-color: #00ccff; background-image:none; }
+
+/*********************************************************** 打印 printBill.html ***********************************************************/
+.print-bill{ color: #000; width: 400px; margin: 10px auto; padding: 35px 15px; background-color: #fff; }
+.print-bill h3{ margin-top: 0; margin-bottom: 30px; text-align: center; }
+.print-bill .print-head{ margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px dashed #000; }
+.print-bill .print-head>div,
+.print-bill .print-sum>div,
+.print-bill .print-date>div{ margin-bottom: 4px; }
+.print-bill .print-sum{ margin-bottom: 4px;  padding-bottom: 10px; border-bottom: 1px dashed #000; }
+.print-bill .bill-class-sum{ margin-bottom: 20px; }
+.print-bill .bill-class-sum .book-list{ padding: 10px 0; border-top: 1px dashed #000; border-bottom: 1px dashed #000; }
+.print-bill .bill-class-sum .book-list .row{ padding-left: 15px; margin-bottom: 4px; }
+.print-bill .bill-class-sum .book-sum{ padding-left: 15px; margin-top: 10px; }
+.print-bill .print-date{ padding-top: 10px; border-top: 1px dashed #000; border-bottom: 1px dashed #000;  }
+.print-bill .print-date>div:last-child{ padding-bottom: 10px; border-bottom: 1px dashed #000; }
+.print-btn-box{width: 400px; margin: 10px auto;  text-align: center; }
+.print-btn-box .btn-info{ width: 110px; border-color: #00ccff; background-color: #00ccff; background-image:none; }
+
+/*********************************************************** 业务单据 businessBills.html ***********************************************************/
+.bill-handle .bill-item-class{ margin: 10px 0 20px 0; }
+.bill-handle .bill-item-class li{ display: inline-block; vertical-align: top; margin-right: 25px; cursor: pointer; }
+.bill-handle .bill-item-class li.active,
+.bill-handle .bill-item-class li:hover{ color: #00ccff; }
+.bill-handle .table>thead>tr{ background-color: #edf0f4; }
+.bill-handle .table>thead>tr>th{ border-bottom: none;}
+.bill-handle .table>tbody>tr>td{ border-top: none; }
+.bill-handle .orderno{ color: #768082; }
+.bill-handle .orderno:hover{ color: #00ccff; }
+.bill-handle .bills-employee{ display: block; height: 20px; width: 80px; overflow: hidden; white-space:nowrap; text-overflow:ellipsis; }
+.bill-handle .wfp{ color: #ff9933; }
+
+.bills-order-set{ padding: 25px 10px; border-top:2px dashed #e2e2e2; display: none; }
+.bills-order-set .bills-order-box{ margin-bottom: 20px; }
+.bills-order-set .bills-order-box span{ line-height: 30px; color: #ff9933; font-size: 18px; }
+.bills-order-set .bills-order-box button{ margin-left: 15px; }
+.bills-order-set .bills-order-payinfo{ margin-bottom: 20px; }
+.bills-order-set .bills-order-payinfo li{ color: #999; display: inline-block; vertical-align: top; margin-right: 25px; }
+.bills-order-set .bills-order-payinfo li span{ color: #666; }
+.bills-order-set .bill-set-box{ margin: 0; }
+.bill-set-box .table>thead>tr{ background-color: #fde8d4; color: #e17f1d; }
+.bill-set-box .table>thead>tr>th{ border-bottom: none; text-align: center;}
+.bill-set-box .table>tbody>tr>td{ border-top: none; padding: 8px 0; }
+
+.bill-set-pay{ padding-left: 0; }
+.bill-set-pay .table>tbody>tr>td:first-child{ padding-right: 8px; }
+.bill-set-pay td input.form-control{ text-align: center;}
+.bill-set-pay td:nth-child(2) input.form-control{ width: 133px; display: inline-block; }
+.bill-set-pay td:last-child input.form-control{ width: 140px; }
+.bill-set-pay select.form-control{ width: 150px; }
+
+.bill-set-server{ padding-right: 10; border-left: 1px solid #e2e2e2;}
+.bill-set-server .table{ text-align: center; margin-bottom: 0; }
+.bill-set-server .table input.form-control{ width: 90%; text-align: center; display: inline-block;}
+.bill-set-server .table>thead>tr>th,
+.bill-set-server .table>tbody>tr>td{ width: 25%; }
+.bill-set-server .table>tbody>tr>td{ height: 34px; line-height: 34px; }
+
+/*********************************************************** 封账作业 SealAccountAssign.html ***********************************************************/
+.seal-handle{ margin: 20px 0; }
+.seal-handle .btn-blue{ background-color: #00ccff; color: #fff; border-color: #00ccff; }
+.seal-handle a{ margin-right: 10px; }
+.seal-day-analysis{ display: none; }
+.seal-day-analysis h5{ font-weight: bold; }
+.seal-day-analysis textarea{ height: 180px; }
+.seal-pay-count{text-align: center; font-size: 12px;}
+.seal-pay-count>thead>tr>th{ border-bottom: none; background-color: #c4e1fc; text-align: center; }
+.seal-business-summary{ text-align: center; }
+.seal-business-summary caption{ text-align: left; font-weight: bold; margin-bottom: 4px; }
+.seal-business-summary>thead>tr>th{ border-bottom: none; background-color: #fce8c4; text-align: center; }
+
+/*********************************************************** 封账日志 SealAccountLog.html ***********************************************************/
+.seal-handle .table{ text-align: center; }
+.seal-handle .table>thead>tr{ background-color: #edf0f4; }
+.seal-handle .table-bordered>thead>tr>th{ border-bottom: none; text-align: center;}
+.seal-handle .table>tbody>tr>td{ border-top: none; }
